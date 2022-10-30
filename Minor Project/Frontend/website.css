@@ -1,0 +1,608 @@
+/* Basic html css ================================================================================================*/
+*,
+html {
+    --primaryGradient: linear-gradient(93.12deg, #1b7b98 0.52%, #1ddae7 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #1b7b98 -2.14%, #1ddae7 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgb(26, 188, 194);
+    --secondaryBoxShadow: 0px -10px 15px rgb(26, 188, 194);
+    --primary: #1b7b98;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    align-content: center;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+h1 {
+    color: #E0E0E0;
+    font-family: Calibri;
+    padding: 50px 50px 50px 50px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    color: #E0E0E0;
+    font-family: Calibri;
+    padding: 50px 50px 50px 50px;
+    font-weight: bold;
+}
+
+h3 {
+    padding: 5px;
+    font-size: x-large;
+    color: #5ad1da;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:link:visited {
+    text-decoration: none;
+}
+
+a:link:hover {
+    text-decoration: none;
+    color: #12a4c9;
+}
+
+/* Common on all pages=================================================================================================== */
+#div1 {
+    padding-top: 100px;
+    width: 100%;
+    height: 20%;
+    --primaryGradient1: linear-gradient(93.12deg, #1d1d1d 0.52%, #000000 100%);
+    --secondaryGradient1: linear-gradient(268.91deg, #1d1d1d -2.14%, #000000 99.69%);
+    --primaryBoxShadow1: 0px 20px 20px rgb(0, 0, 0);
+    --primary: #feffff;
+    background: var(--primaryGradient1);
+    box-shadow: var(--primaryBoxShadow1);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#footer {
+    margin-top: 10px;
+    position: relative;
+    --primaryGradient1: linear-gradient(93.12deg, #1d1d1d 0.52%, #000000 100%);
+    --secondaryGradient1: linear-gradient(268.91deg, #1d1d1d -2.14%, #000000 99.69%);
+    --primaryBoxShadow1: 0px 10px 15px rgb(0, 0, 0);
+    --secondaryBoxShadow1: 0px -10px 15px rgb(0, 0, 0);
+    --primary: #feffff;
+    background: var(--primaryGradient1);
+    text-align: center;
+    font-size: x-small;
+    font-family: Calibri;
+    color: #f9f9f9;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#userpic {
+    margin-top: 5px;
+    margin-right: 0px;
+    width: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#userpic:hover {
+    box-shadow: 0px 0px 15px 0px #1ddae7;
+    transition: all .5s ease-in;
+}
+
+.dropbtn {
+    display: flex;
+    background-color: #4caf4f00;
+    border: none;
+}
+
+.dropdown_fromabove {
+    --primaryGradient1: linear-gradient(93.12deg, #1d1d1d 0.52%, #000000 100%);
+    --secondaryGradient1: linear-gradient(268.91deg, #1d1d1d -2.14%, #000000 99.69%);
+    --primaryBoxShadow1: 0px 10px 15px rgb(0, 0, 0);
+    --secondaryBoxShadow1: 0px -10px 15px rgb(0, 0, 0);
+    --primary: #feffff;
+    background: var(--primaryGradient1);
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    height: 100px;
+}
+
+.dropdown {
+    display: block;
+    margin: 10px;
+    position: relative;
+    width: 100px;
+}
+
+.dropdown-content {
+    text-align: center;
+    width: 100px;
+    margin-right: 100px;
+    display: none;
+    position: relative;
+    background-color: #f9f9f900;
+    box-shadow: 0px 0px 15px 0px #1ddae7;
+    align-items: right;
+    padding-right: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.dropdown-content span {
+    font-family: Calibri;
+    color: #1ddae7;
+    display: block;
+    font-size: larger;
+}
+
+.dropdown-content a {
+    font-family: Calibri;
+    color: #1ddae7;
+    text-decoration: none;
+    display: block;
+    font-size: larger;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+
+}
+
+#menu {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.Barbutton {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.Barbutton:hover {
+    background-color: rgb(82, 82, 82);
+    transition: all .5s ease-in-out;
+}
+
+/* Login page css -------------------------------------------------------------------------------------------------- */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Login_box {
+    margin: 20px;
+    position: relative;
+    width: 355px;
+    height: 570px;
+    background: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 20px 20px 15px #000000;
+    text-align: center;
+    font-family: roboto;
+}
+
+.Login_box:hover {
+    box-shadow: 10px 10px 15px #000000;
+    transition: all .5s ease-in-out;
+}
+
+.Login_box::before {
+    content: ' ';
+    position: absolute;
+    top: -20%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, #1ddae7, #1ddae7);
+    animation: animate 6s linear infinite;
+}
+
+.Login_box::after {
+    content: ' ';
+    position: absolute;
+    top: -20%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, #1ddae7, #1ddae7);
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* home page css ===============================================================================================*/
+
+.Intro_Cards {
+    display: flex;
+    --primaryGradientI: linear-gradient(93.12deg, #0097c5 0.52%, #5ad1da 100%);
+    --primary: #1b7b98;
+    background: var(--primaryGradientI);
+    position: relative;
+    height: 30%;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 50px 0px #1ddae7;
+    border-radius: 5px;
+}
+
+.Intro_Cards:hover {
+    box-shadow: 0px 0px 15px 0px #1ddae7;
+    transition: all .5s ease-in-out;
+}
+
+.IntroPara {
+    display: flex;
+    position: relative;
+    padding: 100px 100px 100px 100px;
+    /* padding-left: 50px;
+    padding-right: 50%; */
+    font-family: Calibri;
+    font-size: x-large;
+    align-items: center;
+}
+
+.IntroPara_alt {
+    display: flex;
+    position: relative;
+    padding: 100px 100px 100px 100px;
+    /* padding-right: 50px;
+    padding-left: 50%; */
+    font-family: Calibri;
+    font-size: x-large;
+    align-items: center;
+}
+
+.Intro_Cards img {
+    align-self: right;
+    display: flex;
+    position: relative;
+    align-items: right;
+    justify-content: right;
+    width: 500px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 10px 15px 15px 0px #1d3d3f;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.Intro_Cards img:hover {
+    box-shadow: 5px 10px 15px 0px #000000;
+}
+
+/* Result page css ------------------------------------------------------------------------------------------------------ */
+.result_graph {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px;
+    box-shadow: 10px 15px 15px 0px #1d3d3f;
+    width: 40%;
+    height: 40%;
+}
+
+.result_legends {
+    margin: 0px 0px 20px 20px;
+    border-radius: 25%;
+    width: 20%;
+    height: 20%;
+
+}
+
+.result_graph:hover {
+    box-shadow: 5px 10px 15px 0px #1d3d3f;
+    transition: all .5s ease-in-out;
+}
+
+.result_h2 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.result_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Devs page css =====================================================================================================*/
+
+.card {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 210px;
+    grid-template-areas: "image" "text";
+    font-family: roboto;
+    border-radius: 10px;
+    background: #000000;
+    text-align: center;
+    inset: 3px;
+    position: absolute;
+    z-index: 10;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+    color: #f9f9f9;
+}
+
+.card-image1 {
+    grid-area: image;
+    background: url(https://media-exp1.licdn.com/dms/image/D4D03AQFMQKcoKrkH1g/profile-displayphoto-shrink_800_800/0/1666868454985?e=1672272000&v=beta&t=xkhzPvwtyzKgSOlkGY3iEz-Y_wt6Eg5hLLTI1hAhRb4);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image2 {
+    grid-area: image;
+    background: url(https://media-exp1.licdn.com/dms/image/D5603AQH6T9RFlxGWoA/profile-displayphoto-shrink_800_800/0/1665726827160?e=1671062400&v=beta&t=-iC6GUH64uusKYE7Ah4J8qPEsKoXHVqwdq6bbVMoKXY);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image3 {
+    grid-area: image;
+    background: url(https://media-exp1.licdn.com/dms/image/C4D03AQGJKhUgZQrw9g/profile-displayphoto-shrink_800_800/0/1663592200114?e=1671062400&v=beta&t=Bt06821eg0ckmG7gZfO6GnS1iDOBFCb1Ktkd_x-pdWw);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.devs {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Thera page CSS=========================================================================================================*/
+
+.Thera_on_bot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 10px 15px 15px 0px #1d3d3f;
+}
+
+/* CHATBOX
+=============== */
+.chatbox {
+    position: relative;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+/* CONTENT IS CLOSE */
+.chatbox__support {
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    width: 300px;
+    height: 350px;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .9s ease-in-out;
+}
+
+/* CONTENT ISOPEN */
+.chatbox--active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+
+}
+
+/* BUTTON */
+.chatbox__button {
+    text-align: right;
+}
+
+.send__button {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* HEADER */
+.chatbox__header {
+    position: relative;
+    top: 0;
+    background: rgb(255, 255, 255);
+}
+
+/* MESSAGES */
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+}
+
+.messages__item {
+    background: rgb(255, 255, 255);
+    max-width: 60.6%;
+    width: fit-content;
+}
+
+.messages__item--operator {
+    margin-left: auto;
+}
+
+.messages__item--visitor {
+    margin-right: auto;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    position: relative;
+    bottom: 0;
+}
+
+.chatbox__support {
+    margin-left: 100px;
+    background: #f9f9f9;
+    position: relative;
+    height: 500px;
+    width: 90%;
+    box-shadow: 0px 0px 15px rgb(7, 185, 230);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* HEADER */
+.chatbox__header {
+    background: var(--primaryGradient);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+}
+
+.chatbox__image--header {
+    margin-right: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.chatbox__heading--header {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.chatbox__description--header {
+    font-size: .9rem;
+    color: white;
+}
+
+/* Messages */
+.chatbox__messages {
+    padding: 0 20px;
+}
+
+.messages__item {
+    margin-top: 10px;
+    background: #E0E0E0;
+    padding: 8px 12px;
+    max-width: 70%;
+}
+
+.messages__item--visitor,
+.messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background: var(--secondaryGradient);
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+}
+
+.chatbox__footer input {
+    width: 80%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chatbox__send--footer {
+    color: white;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

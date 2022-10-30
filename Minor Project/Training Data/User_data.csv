@@ -1,0 +1,12 @@
+Name,Email,happy,sad,anger,fear,suprise
+Trishal pandey,trishalpandey7@gmail.com,20,21,19,0,8
+test2,test1@gmail.com,21,23,19,10,18
+test3,test2@gmail.com,22,24,20,20,18
+test4,test3@gmail.com,23,21,28,13,28
+test5,test4@gmail.com,24,24,26,14,30
+test6,test5@gmail.com,25,22,17,12,13
+test7,test6@gmail.com,26,27,11,16,14
+test8,test7@gmail.com,27,27,15,26,12
+test9,test8@gmail.com,22,24,17,25,16
+test10,test9@gmail.com,24,11,14,23,25
+test1,test10@gmail.com,8,17,34,25,40

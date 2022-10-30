@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "What's your name?",
+        "What are you?",
+        "What do you do?"
+      ],
+      "responses": [
+        "My name is Thera and I am a Therapy Chatbot",
+        "I'm a Therapy Chatbot, Thera!",
+        "Hi there, I'm Thera, a Therapy Chatbot"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What help you provide?",
+        "How you can be helpful?"
+      ],
+      "responses": [
+        "I can give simple solution to your problems and uplift your mood a little",
+        "I can be someone you can talk to so that it lessens your burdens and lift your spirits"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! It was nice meeting you"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "That was a nice one"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I'm feeling depressed",
+        "That's making me sad",
+        "Can you help me feel better?",
+        "I'm feeling down",
+        "Cure my depression",
+        "i dont feel happy"
+      ],
+      "responses": [
+        "There's no need to feel down. Try sleeping well, eating healthy and excercising a little. It'll make your day a lot better. I can tell you a joke if you so like.",
+        "Depression is not an easy thing to deal with. Finding someone to talk to or having small goals in life will make combatting depression a lot easier. If you wish, I can tell you something funny to make you feel a little better",
+        "The emotional pain and depression accompanying saddness can be hard to bear. It's something only the one experiencing it can understand. But as strange as it might sound, you have to work at having fun. Plan things you used to enjoy, even if they feel like a chore."
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "I'm pissed off",
+        "I'm feeling angry",
+        "I have a short temper. How do I take care of my short temper?",
+        "My anger issues are getting worse"
+      ],
+      "responses": [
+        "Anger is one of the things that easily causes interpersonal relationship and social issues. But it's not something you can't overcome.\nStart off by thinking before you speak. In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything.",
+        "Short-temper effects many of the youth in the current age and it can leave long-lasting scars. But it's not uncurable. Here are some ways you can take control of your anger:\n\t1) Give yourself short breaks during times of the day that tend to be stressful.\n\t2)Physical activity can help reduce stress that can cause you to become angry.\n\t3)State your concerns and needs clearly and directly, without hurting others or trying to control them."
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "You made my happy",
+        "I'm feeling happy",
+        "I'm filled with joy",
+        "I'm overjoyed"
+      ],
+      "responses": [
+        "It's great if you're happy. Positive emotions increase satisfaction with life and increase our productivity.",
+        "It's nice that you're feeling happy.\nAccording to verywellmind.com, Positive emotions are linked to better health and longevity. One study found that people who experienced more positive emotions than negative ones were more likely to have survived over a 13 year period."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "The last thing I want to do is hurt you; but it's still on the list.",
+        "Before you criticize someone, walk a mile in their shoes. That way, when you do criticize them, you're a mile away and you have their shoes.",
+        "The problem isn't that obesity runs in your family. It's that no one runs in your family.",
+        "What's the difference between ignorance and apathy? I don't know and I don't care.",
+        "Communist jokes aren't funny unless everyone gets them.",
+        "A book fell on my head the other day. I only have my shelf to blame though.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

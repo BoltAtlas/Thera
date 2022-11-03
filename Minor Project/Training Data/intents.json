@@ -5,16 +5,63 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey :)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Nice to meet you, how can i help?"
+      ]
+    },
+    {
+      "tag": "Tfeels",
+      "patterns": [
+        "How are you",
+        "are you ok?",
+        "how do you feel about that?",
+        "is there something i could do for you?"
+      ],
+      "responses": [
+        "Let us focus on your feels first",
+        "I am very happy that you are talking to me!",
+        "Im fine! thanks a lot for asking :)"
+      ]
+    },
+    {
+      "tag": "laugh",
+      "patterns": [
+        "lol",
+        "lmao",
+        "haha",
+        "XD"
+      ],
+      "responses": [
+        "im glad you liked that",
+        "see already feels better",
+        "Thank you for laughing on that",
+        "I got more from that came from"
+      ]
+    },
+    {
+      "tag": "notlaugh",
+      "patterns": [
+        "you tried",
+        "that was not funny",
+        "sigh",
+        "-_-",
+        "boooooo",
+        "got anything better?"
+      ],
+      "responses": [
+        "Im still learning human behavior,so not everything will land.",
+        "could try another one",
+        "tough crowd",
+        "still need improvements I see.",
+        "doesnt hurt to try at least"
       ]
     },
     {
@@ -22,7 +69,11 @@
       "patterns": [
         "What's your name?",
         "What are you?",
-        "What do you do?"
+        "What do you do?",
+        "Who are you?",
+        "and you are?",
+        "what can you do?",
+        "ok, what do you do Thera?"
       ],
       "responses": [
         "My name is Thera and I am a Therapy Chatbot",
@@ -31,15 +82,54 @@
       ]
     },
     {
+      "tag": "single",
+      "patterns": [
+        "no",
+        "yes",
+        "ok",
+        "sure",
+        "maybe",
+        "idk",
+        "idc"
+      ],
+      "responses": [
+        "A single word response like that barely helps us. Please be a bit more specific, it helps me be a better helper for you :)",
+        "A bit more elaborate response would be better :)",
+        "Talk to me here with more than one word please so that i can help you"
+      ]
+    },
+    {
       "tag": "options",
       "patterns": [
         "How you could help me?",
         "What help you provide?",
-        "How you can be helpful?"
+        "How you can be helpful?",
+        "how do we start",
+        "what do i have to do?",
+        "How to start?",
+        "How do i use you"
       ],
       "responses": [
         "I can give simple solution to your problems and uplift your mood a little",
-        "I can be someone you can talk to so that it lessens your burdens and lift your spirits"
+        "I can be someone you can talk to so that it lessens your burdens and lift your spirits",
+        "lets start with how are you feeling right now?",
+        "lets start with a simple question of 'whats on your mind right now?'",
+        "let me start whats bothering you?",
+        "start by telling me what brought you here?"
+      ]
+    },
+    {
+      "tag": "camefor",
+      "patterns": [
+        "you are a minor project",
+        "i came to test you",
+        "i want to see what you are capable of",
+        "like to see what AI bots can do"
+      ],
+      "responses": [
+        "For that we would have to talk about you first :)",
+        "We should start by having a conversation about you",
+        "i hope i can do well"
       ]
     },
     {
@@ -52,7 +142,8 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! It was nice meeting you"
+        "Bye! It was nice meeting you",
+        "hope our talk helped"
       ]
     },
     {
@@ -62,7 +153,7 @@
         "Thank you",
         "That's helpful",
         "Thank's a lot!",
-        "That was a nice one"
+        "thx"
       ],
       "responses": [
         "Happy to help!",
@@ -78,7 +169,8 @@
         "Can you help me feel better?",
         "I'm feeling down",
         "Cure my depression",
-        "i dont feel happy"
+        "i dont feel happy",
+        "feeling a down"
       ],
       "responses": [
         "There's no need to feel down. Try sleeping well, eating healthy and excercising a little. It'll make your day a lot better. I can tell you a joke if you so like.",
@@ -92,7 +184,10 @@
         "I'm pissed off",
         "I'm feeling angry",
         "I have a short temper. How do I take care of my short temper?",
-        "My anger issues are getting worse"
+        "My anger issues are getting worse",
+        "people irritate",
+        "rage inside",
+        "sore after"
       ],
       "responses": [
         "Anger is one of the things that easily causes interpersonal relationship and social issues. But it's not something you can't overcome.\nStart off by thinking before you speak. In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything.",
@@ -105,7 +200,11 @@
         "You made my happy",
         "I'm feeling happy",
         "I'm filled with joy",
-        "I'm overjoyed"
+        "I'm overjoyed",
+        "feeling good",
+        "Positive feels",
+        "I'm contented",
+        "Joyfull honestly"
       ],
       "responses": [
         "It's great if you're happy. Positive emotions increase satisfaction with life and increase our productivity.",
@@ -117,17 +216,35 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "tell me another",
+        "hit me"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "The last thing I want to do is hurt you; but it's still on the list.",
-        "Before you criticize someone, walk a mile in their shoes. That way, when you do criticize them, you're a mile away and you have their shoes.",
         "The problem isn't that obesity runs in your family. It's that no one runs in your family.",
         "What's the difference between ignorance and apathy? I don't know and I don't care.",
         "Communist jokes aren't funny unless everyone gets them.",
         "A book fell on my head the other day. I only have my shelf to blame though.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "I went to buy some camo pants but couldn't find any.",
+        "I failed math so many times at school, I can't even count.",
+        "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.",
+        "Don't you hate it when someone answers their own questions? I do.",
+        "Light travels faster than sound, which is the reason that some people appear bright before you hear them speak.",
+        "A told my girlfriend she drew her eyebrows too high. She seemed surprised.",
+        "My therapist says I have a preoccupation for revenge. We'll see about that.",
+        "Always borrow money from a pessimist. They'll never expect it back.",
+        "I'm reading a book about anti-gravity. It's impossible to put down.",
+        "Atheism is a non-prophet organization.",
+        "A recent study has found that women who carry a little extra weight live longer than the men who mention it.",
+        "The future, the present, and the past walk into a bar. Things got a little tense.",
+        "Before you criticize someone, walk a mile in their shoes. That way, when you do criticize them, you're a mile away and you have their shoes.",
+        "I got a new pair of gloves today, but they''re both 'lefts,' which on the one hand is great, but on the other, it's just not right.",
+        "The rotation of Earth really makes my day.",
+        "Well, to be Frank with you, I'd have to change my name.",
+        "My friend's bakery burned down last night. Now his business is toast."
       ]
     }
   ]

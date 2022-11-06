@@ -20,9 +20,7 @@
       "patterns": [
         "What's your name?",
         "What are you?",
-        "Who are you?",
-        "what can you do?",
-        "ok, what do you do Thera?"
+        "Who are you?"
       ],
       "responses": [
         "My name is Thera and I am a Therapy Chatbot",
@@ -39,7 +37,8 @@
         "sure",
         "maybe",
         "idk",
-        "idc"
+        "idc",
+        "how?"
       ],
       "responses": [
         "A single word response like that barely helps us. Please be a bit more specific, it helps me be a better helper for you :)",
@@ -50,7 +49,7 @@
     {
       "tag": "camefor",
       "patterns": [
-        "you are a minor project",
+        "you are a minor project i wanna test you",
         "i came to test you",
         "i want to see what you are capable of",
         "like to see what AI bots can do"
@@ -70,7 +69,10 @@
         "how do we start",
         "what do i have to do?",
         "How to start?",
-        "How do i use you"
+        "How do i use you",
+        "what can you do?",
+        "ok, what do you do?",
+        "I have problems"
       ],
       "responses": [
         "I can give simple solution to your problems and uplift your mood a little",
@@ -78,7 +80,8 @@
         "lets start with how are you feeling right now?",
         "lets start with a simple question of 'whats on your mind right now?'",
         "let me start whats bothering you?",
-        "start by telling me what brought you here?"
+        "start by telling me what brought you here?",
+        "Im here to help ofc talk to me, share your troubles"
       ]
     },
     {
@@ -142,12 +145,26 @@
         "i feel scared",
         "feeling like im in danger",
         "i have a lot of eyes on me",
-        "i fear for people"
+        "i fear for people",
+        "im afraid"
       ],
       "responses": [
         "Fear is one of the most powerful emotions. It has a very strong effect on your mind and body. If you always avoid situations that scare you, you might stop doing things you want or need to do. Exposing yourself to your fears can be an effective way of overcoming this anxiety.",
         "Fear and phobia is a common thing that many humans share. A way of overcoming it is to learn more about your fear or anxiety. Keep an anxiety diary or thought record to note when and what happens. You can try setting yourself small, achievable goals for facing your fears.",
         "Learning relaxation techniques can help you with the mental and physical feelings of fear. It can help just to drop your shoulders and breathe deeply. Or imagine yourself in a relaxing place."
+      ]
+    },
+    {
+      "tag": "lessfear",
+      "patterns": [
+        "how to become brave",
+        "how to be less fearfull",
+        "how to stop being afraid"
+      ],
+      "responses": [
+        "If you start to get a faster heartbeat or sweating palms, the best thing is not to fight it. Stay where you are and simply feel the panic without trying to distract yourself. Place the palm of your hand on your stomach and breathe slowly and deeply.",
+        "Avoiding fears only makes them scarier. Whatever your fear, if you face it, it should start to fade. If you panic one day getting into a lift, for example, it's best to get back into a lift the next day.",
+        "Life is full of stresses, yet many of us feel that our lives must be perfect. Bad days and setbacks will always happen, and it's important to remember that life is messy."
       ]
     },
     {
@@ -193,8 +210,35 @@
       ],
       "responses": [
         "Anger is one of the things that easily causes interpersonal relationship and social issues. But it's not something you can't overcome.\nStart off by thinking before you speak. In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything.",
-        "Short-temper effects many of the youth in the current age and it can leave long-lasting scars. But it's not uncurable. Here are some ways you can take control of your anger:\n1) Give yourself short breaks during times of the day that tend to be stressful. \n2)Physical activity can help reduce stress that can cause you to become angry. \n3)State your concerns and needs clearly and directly, without hurting others or trying to control them.",
+        "Short-temper effects many of the youth in the current age and it can leave long-lasting scars. But it's not uncurable. Here are some ways you can take control of your anger:\n\t1) Give yourself short breaks during times of the day that tend to be stressful.\n\t2)Physical activity can help reduce stress that can cause you to become angry.\n\t3)State your concerns and needs clearly and directly, without hurting others or trying to control them.",
         "There are times when your anger is valid as well as times when your anger feels valid even if it's not, both these cases share a similarity however that actions based on anger are never well received regardless."
+      ]
+    },
+    {
+      "tag": "removeangry",
+      "patterns": [
+        "how do i control anger",
+        "how be less angry",
+        "how to control temper"
+      ],
+      "responses": [
+        "Timeouts aren't just for kids. Give yourself short breaks during times of the day that tend to be stressful. A few moments of quiet time might help you feel better prepared to handle what's ahead without getting irritated or angry.",
+        "Forgiveness is a powerful tool. If you allow anger and other negative feelings to crowd out positive feelings, you might find yourself swallowed up by your own bitterness or sense of injustice. Forgiving someone who angered you might help you both learn from the situation and strengthen your relationship.",
+        "In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything. Also allow others involved in the situation to do the same."
+      ]
+    },
+    {
+      "tag": "heavy",
+      "patterns": [
+        "i feel alone, i am worthless",
+        "i should end it all",
+        "hi feel like i should kill myself",
+        "suicide is answer"
+      ],
+      "responses": [
+        "Even thinking of such a thing is a very big red flag, you need to understand that humans evolve to solve problems whatever it is your are facing right now is temporary and you will find a way out",
+        "Help is always available at 9152987821.",
+        "Please seek professional help, even I am under qualified to help in such a scenario I suggest you talk to friends and family or anyone you can count on to help you in such time please don't make any rash decisions."
       ]
     },
     {
@@ -213,6 +257,22 @@
       "responses": [
         "It's great if you're happy or want to be happier. Positive emotions increase satisfaction with life and increase our productivity.",
         "It's nice that you're feeling happy or want to be happier.\nAccording to verywellmind.com, Positive emotions are linked to better health and longevity. One study found that people who experienced more positive emotions than negative ones were more likely to have survived over a 13 year period."
+      ]
+    },
+    {
+      "tag": "makehappy",
+      "patterns": [
+        "i want to feel happier",
+        "how should i improve my mood",
+        "what advice do you have?",
+        "how can i make myself feel better"
+      ],
+      "responses": [
+        "If you have a lot of stress in your life, find ways to reduce it, such as learning a few time-management techniques.",
+        "Introduce regular exercise and time to yourself. These are positive changes. Taking control of your time in this way can effectively reduce stress.",
+        "Doing things that you enjoy is good for your emotional wellbeing. Simple activities like watching sports with a friend, having a soak in the bath, or meeting up with friends for coffee can all improve your day.",
+        "The best way to improve your self-esteem is to treat yourself as you'd treat a valued friend, in a positive but honest way.",
+        "Making healthy choices about your diet can make you feel emotionally stronger. You're doing something positive for yourself, which lifts your self-esteem."
       ]
     },
     {

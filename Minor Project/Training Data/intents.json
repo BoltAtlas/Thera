@@ -5,9 +5,7 @@
       "patterns": [
         "Hi",
         "Hey",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Hello"
       ],
       "responses": [
         "Hey :)",
@@ -18,60 +16,11 @@
       ]
     },
     {
-      "tag": "Tfeels",
-      "patterns": [
-        "How are you",
-        "are you ok?",
-        "how do you feel about that?",
-        "is there something i could do for you?"
-      ],
-      "responses": [
-        "Let us focus on your feels first",
-        "I am very happy that you are talking to me!",
-        "Im fine! thanks a lot for asking :)"
-      ]
-    },
-    {
-      "tag": "laugh",
-      "patterns": [
-        "lol",
-        "lmao",
-        "haha",
-        "XD"
-      ],
-      "responses": [
-        "im glad you liked that",
-        "see already feels better",
-        "Thank you for laughing on that",
-        "I got more from that came from"
-      ]
-    },
-    {
-      "tag": "notlaugh",
-      "patterns": [
-        "you tried",
-        "that was not funny",
-        "sigh",
-        "-_-",
-        "boooooo",
-        "got anything better?"
-      ],
-      "responses": [
-        "Im still learning human behavior,so not everything will land.",
-        "could try another one",
-        "tough crowd",
-        "still need improvements I see.",
-        "doesnt hurt to try at least"
-      ]
-    },
-    {
       "tag": "introduction",
       "patterns": [
         "What's your name?",
         "What are you?",
-        "What do you do?",
         "Who are you?",
-        "and you are?",
         "what can you do?",
         "ok, what do you do Thera?"
       ],
@@ -99,6 +48,20 @@
       ]
     },
     {
+      "tag": "camefor",
+      "patterns": [
+        "you are a minor project",
+        "i came to test you",
+        "i want to see what you are capable of",
+        "like to see what AI bots can do"
+      ],
+      "responses": [
+        "For that we would have to talk about you first :)",
+        "We should start by having a conversation about you",
+        "i hope i can do well"
+      ]
+    },
+    {
       "tag": "options",
       "patterns": [
         "How you could help me?",
@@ -116,20 +79,6 @@
         "lets start with a simple question of 'whats on your mind right now?'",
         "let me start whats bothering you?",
         "start by telling me what brought you here?"
-      ]
-    },
-    {
-      "tag": "camefor",
-      "patterns": [
-        "you are a minor project",
-        "i came to test you",
-        "i want to see what you are capable of",
-        "like to see what AI bots can do"
-      ],
-      "responses": [
-        "For that we would have to talk about you first :)",
-        "We should start by having a conversation about you",
-        "i hope i can do well"
       ]
     },
     {
@@ -162,20 +111,74 @@
       ]
     },
     {
+      "tag": "Tfeels",
+      "patterns": [
+        "How are you",
+        "are you ok?"
+      ],
+      "responses": [
+        "Let us focus on your feels first",
+        "I am very happy that you are talking to me!",
+        "Im fine! thanks a lot for asking :)"
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "i feel stressed",
+        "feeling stressed out",
+        "i have a lot of pressure on me"
+      ],
+      "responses": [
+        "Hmm. Your concern is genuine. You have a lot on your shoulders. but taking the challenge head on at times is a good way to deal with problems rather than running away",
+        "Many studies have shown that engaging in physical activity helps reduce stress levels and improve mood, while sedentary behavior may lead to increased stress, poor mood, and sleep disturbances. So if you're feeling stressed, moving your body on a consistent basis may help.",
+        "Spending too much time in front of screens in general is associated with lower psychological well-being and increased stress levels in both adults and kids. While these devices are often necessary, using them too often may increase stress levels, so try to minimize the use of such devices as much as possible.",
+        "Setting aside time to practice self-care may help reduce your stress levels. Practical examples include going for a walk outside or practicing a hobby."
+      ]
+    },
+    {
+      "tag": "fear",
+      "patterns": [
+        "i feel scared",
+        "feeling like im in danger",
+        "i have a lot of eyes on me",
+        "i fear for people"
+      ],
+      "responses": [
+        "Fear is one of the most powerful emotions. It has a very strong effect on your mind and body. If you always avoid situations that scare you, you might stop doing things you want or need to do. Exposing yourself to your fears can be an effective way of overcoming this anxiety.",
+        "Fear and phobia is a common thing that many humans share. A way of overcoming it is to learn more about your fear or anxiety. Keep an anxiety diary or thought record to note when and what happens. You can try setting yourself small, achievable goals for facing your fears.",
+        "Learning relaxation techniques can help you with the mental and physical feelings of fear. It can help just to drop your shoulders and breathe deeply. Or imagine yourself in a relaxing place."
+      ]
+    },
+    {
       "tag": "sad",
       "patterns": [
-        "I'm feeling depressed",
-        "That's making me sad",
-        "Can you help me feel better?",
         "I'm feeling down",
-        "Cure my depression",
-        "i dont feel happy",
-        "feeling a down"
+        "I feel sad",
+        "feeling a down",
+        "I'm not feeling well",
+        "i feel like a loser"
       ],
       "responses": [
         "There's no need to feel down. Try sleeping well, eating healthy and excercising a little. It'll make your day a lot better. I can tell you a joke if you so like.",
+        "Do you perhaps stay indoors a lot? We need to understand that being alone for long periods of time is hard on humans and we need social interactions with people we like to stay happy.",
+        "While sadness can be painful, there are times when you have to allow yourself to be sad. Denying such feelings may force them underground, where they can do more damage with time. Cry if you feel like it. Notice if you feel relief after the tears stop.",
+        "Sadness is an emotion all humans experience at any point in their lives. Some studies suggest that crying may have a relaxing effect on the body by releasing endorphins, a natural “feel-good” chemical in your body. Crying may also activate your parasympathetic nervous system, which helps your body recover from stress and trauma.",
+        "Sadness is normal and can even be healthy. Research has shown that experiencing mixed feelings and negative feelings is crucial to mental well-being. Many studies have shown that people who apologize for or repress their feelings actually intensify those negative feelings."
+      ]
+    },
+    {
+      "tag": "Depression",
+      "patterns": [
+        "I'm feeling depressed",
+        "I feel depressed",
+        "feeling a very down in life",
+        "I feel nothing"
+      ],
+      "responses": [
         "Depression is not an easy thing to deal with. Finding someone to talk to or having small goals in life will make combatting depression a lot easier. If you wish, I can tell you something funny to make you feel a little better",
-        "The emotional pain and depression accompanying saddness can be hard to bear. It's something only the one experiencing it can understand. But as strange as it might sound, you have to work at having fun. Plan things you used to enjoy, even if they feel like a chore."
+        "The emotional pain and depression accompanying saddness can be hard to bear. It's something only the one experiencing it can understand. But as strange as it might sound, you have to work at having fun. Plan things you used to enjoy, even if they feel like a chore.",
+        "If you truly believe that you are depressed and things don't seem to be getting better I would recommend talking to a real human therapist as such a serious matter should be taken care of by professionals and advise in such cases are not enough at times."
       ]
     },
     {
@@ -183,15 +186,15 @@
       "patterns": [
         "I'm pissed off",
         "I'm feeling angry",
-        "I have a short temper. How do I take care of my short temper?",
+        "I have a short temper.",
         "My anger issues are getting worse",
         "people irritate",
-        "rage inside",
-        "sore after"
+        "rage inside"
       ],
       "responses": [
         "Anger is one of the things that easily causes interpersonal relationship and social issues. But it's not something you can't overcome.\nStart off by thinking before you speak. In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything.",
-        "Short-temper effects many of the youth in the current age and it can leave long-lasting scars. But it's not uncurable. Here are some ways you can take control of your anger:\n\t1) Give yourself short breaks during times of the day that tend to be stressful.\n\t2)Physical activity can help reduce stress that can cause you to become angry.\n\t3)State your concerns and needs clearly and directly, without hurting others or trying to control them."
+        "Short-temper effects many of the youth in the current age and it can leave long-lasting scars. But it's not uncurable. Here are some ways you can take control of your anger:\n1) Give yourself short breaks during times of the day that tend to be stressful. \n2)Physical activity can help reduce stress that can cause you to become angry. \n3)State your concerns and needs clearly and directly, without hurting others or trying to control them.",
+        "There are times when your anger is valid as well as times when your anger feels valid even if it's not, both these cases share a similarity however that actions based on anger are never well received regardless."
       ]
     },
     {
@@ -204,21 +207,20 @@
         "feeling good",
         "Positive feels",
         "I'm contented",
-        "Joyfull honestly"
+        "Joyfull honestly",
+        "how to be happy?"
       ],
       "responses": [
-        "It's great if you're happy. Positive emotions increase satisfaction with life and increase our productivity.",
-        "It's nice that you're feeling happy.\nAccording to verywellmind.com, Positive emotions are linked to better health and longevity. One study found that people who experienced more positive emotions than negative ones were more likely to have survived over a 13 year period."
+        "It's great if you're happy or want to be happier. Positive emotions increase satisfaction with life and increase our productivity.",
+        "It's nice that you're feeling happy or want to be happier.\nAccording to verywellmind.com, Positive emotions are linked to better health and longevity. One study found that people who experienced more positive emotions than negative ones were more likely to have survived over a 13 year period."
       ]
     },
     {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?",
-        "tell me another",
-        "hit me"
+        "Tell me funny!",
+        "Do you know a joke?"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
@@ -245,6 +247,34 @@
         "The rotation of Earth really makes my day.",
         "Well, to be Frank with you, I'd have to change my name.",
         "My friend's bakery burned down last night. Now his business is toast."
+      ]
+    },
+    {
+      "tag": "laugh",
+      "patterns": [
+        "lol",
+        "humorous",
+        "hilarious"
+      ],
+      "responses": [
+        "im glad you liked that",
+        "see already feels better",
+        "Thank you for laughing on that",
+        "I got more from that came from"
+      ]
+    },
+    {
+      "tag": "notlaugh",
+      "patterns": [
+        "you tried",
+        "boooooo"
+      ],
+      "responses": [
+        "Im still learning human behavior,so not everything will land.",
+        "could try another one",
+        "tough crowd",
+        "still need improvements I see.",
+        "doesnt hurt to try at least"
       ]
     }
   ]

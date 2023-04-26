@@ -24,7 +24,7 @@ def save_plot(d):
     plt.axis('equal')
     # plt.legend()
     plt.savefig(
-        r'C:\Users\trish\.vscode\Projects\Minor Project\Frontend\Resource folder\User_data.png')
+        r'Frontend\Resource folder\User_data.png')
     # plt.show()
 
 

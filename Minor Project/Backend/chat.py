@@ -12,11 +12,11 @@ matplotlib.use('Agg')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open(r'C:\Users\trish\.vscode\Projects\Minor Project\Training Data\intents.json', 'r') as f:
+with open(r'Training Data\intents.json', 'r', encoding="utf_8") as f:
     # with open(r'Training Data\intents.json', 'r') as f:
     intents = json.load(f)
 
-FILE = r"C:\Users\trish\.vscode\Projects\Minor Project\Training Data\data.pth"
+FILE = r"Training Data\data.pth"
 # FILE = r"Training Data\data.pth"
 data = torch.load(FILE)
 

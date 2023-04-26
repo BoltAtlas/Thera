@@ -8,7 +8,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import tokenize, stem, bag_of_words
 from model import NeuralNet
 
-with open(r'C:\Users\trish\.vscode\Projects\Minor Project\Training Data\intents.json', 'r') as f:
+with open(r'Minor Project\Training Data\intents.json', 'r', encoding="utf_8") as f:
     # with open(r'Training Data\intents.json', 'r') as f:
     intents = json.load(f)
 
@@ -108,7 +108,7 @@ data = {
     "tags": tags
 }
 
-FILE = r"C:\Users\trish\.vscode\Projects\Minor Project\Training Data\data.pth"
+FILE = r"Minor Project\Training Data\data.pth"
 # FILE = r"Training Data\data.pth"
 torch.save(data, FILE)
 
